@@ -1,0 +1,9 @@
+{
+  "name": "unitymakesus/jigsaw-starter",
+  "description": "Starter template for our Jigsaw projects.",
+  "require": {
+    "php": "^8.2",
+    "tightenco/jigsaw": "^1.7"
+  },
+  "license": "MIT"
+}
