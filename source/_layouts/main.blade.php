@@ -15,6 +15,16 @@
     <link rel="stylesheet" href="https://use.typekit.net/rcl7eij.css">
     <link rel="stylesheet" href="{{ $page->getUrl() . mix('css/main.css', 'assets/build') }}">
     <script defer src="{{ $page->getUrl() . mix('js/main.js', 'assets/build') }}"></script>
+    @if ($page->staging)
+      <meta name="robots" content="noindex">
+      <script>
+        window.Userback = window.Userback || {};
+        Userback.access_token = 'P-QZkNjy6ZcTP5jRcFIfaUHnOaP';
+        (function(d) {
+          var s = d.createElement('script');s.async = true;s.src = 'https://static.userback.io/widget/v1.js';(d.head || d.body).appendChild(s);
+        })(document);
+      </script>
+    @endif
   </head>
   <body>
     @yield('body')
