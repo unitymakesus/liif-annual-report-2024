@@ -13,13 +13,13 @@
       <div class="lg:col-span-6">
         <div class="grid grid-cols-2 gap-4 sm:gap-8">
           <figure class="row-span-2 overlay overlay--green">
-            <img class="w-full h-full object-cover grayscale" src="{{ url('/assets/images/example.webp') }}" alt="">
+            <img class="lazy w-full h-full object-cover grayscale" data-src="{{ url('/assets/images/example.webp') }}" alt="">
           </figure>
           <figure class="max-w-[60%] overlay overlay--beige">
-            <img class="w-full h-full object-cover grayscale" src="{{ url('/assets/images/example.webp') }}" alt="">
+            <img class="lazy w-full h-full object-cover grayscale" data-src="{{ url('/assets/images/example.webp') }}" alt="">
           </figure>
           <figure class="col-start-2 overlay overlay--blue">
-            <img class="w-full h-full object-cover grayscale" src="{{ url('/assets/images/example.webp') }}" alt="">
+            <img class="lazy w-full h-full object-cover grayscale" data-src="{{ url('/assets/images/example.webp') }}" alt="">
           </figure>
         </div>
       </div>

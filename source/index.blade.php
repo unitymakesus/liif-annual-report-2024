@@ -7,20 +7,20 @@
       <div class="grid gap-8 lg:gap-16 lg:grid-cols-12">
         <div class="lg:col-span-6">
           <div class="grid grid-cols-2 gap-4 sm:gap-8">
-            <figure>
-              <img class="w-full h-full object-cover rounded-lg grayscale" src="{{ url('/assets/images/example.webp') }}" alt="">
+            <figure class="overlay overlay--blue">
+              <img class="lazy w-full h-full object-cover grayscale" data-src="{{ url('/assets/images/example.webp') }}" alt="">
             </figure>
-            <figure class="col-start-1 row-start-2 max-w-[60%] ml-auto">
-              <img class="w-full h-full object-cover rounded-lg grayscale" src="{{ url('/assets/images/example.webp') }}" alt="">
+            <figure class="col-start-1 row-start-2 max-w-[60%] ml-auto overlay overlay--blue">
+              <img class="lazy w-full h-full object-cover grayscale" data-src="{{ url('/assets/images/example.webp') }}" alt="">
             </figure>
-            <figure class="col-start-2 row-start-1 row-span-2">
-              <img class="w-full h-full object-cover rounded-lg grayscale" src="{{ url('/assets/images/example.webp') }}" alt="">
+            <figure class="col-start-2 row-start-1 row-span-2 overlay overlay--blue">
+              <img class="lazy w-full h-full object-cover grayscale" data-src="{{ url('/assets/images/example.webp') }}" alt="">
             </figure>
           </div>
         </div>
         <div class="flex flex-col justify-center lg:col-span-6">
           <h2>Our Mission</h2>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum expedita, ducimus ipsum est natus corrupti eius amet quam commodi obcaecati fugiat? Ipsum quo eligendi suscipit facilis quos sapiente, reprehenderit quasi.</p>
+          <p>Everyone in the United States should benefit from living in a community of opportunity, equity and well-being. LIIF mobilizes capital and partners to achieve this vision for people and communities.</p>
         </div>
       </div>
     </div>
@@ -35,7 +35,7 @@
           <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur illum nam iste, quis magnam in, non deserunt eligendi amet maiores tenetur dignissimos quas similique molestiae voluptas accusantium voluptates. Ullam, tenetur.Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur illum nam iste, quis magnam in, non deserunt eligendi amet maiores tenetur dignissimos quas similique molestiae voluptas accusantium voluptates. Ullam, tenetur.</p>
         </div>
         <figure class="flex flex-col justify-center">
-          <img class="rounded-lg grayscale" src="{{ url('/assets/images/example.webp') }}" alt="">
+          <img class="lazy rounded-lg grayscale" data-src="{{ url('/assets/images/example.webp') }}" alt="">
         </figure>
       </div>
     </div>
@@ -49,13 +49,13 @@
         <div class="grid lg:gap-16 lg:grid-cols-12">
           <div class="lg:col-span-5">
             <figure class="mb-8">
-              <img class="rounded-lg" src="{{ url('/assets/images/example.webp') }}" alt="">
-              <figcaption>Lorem ipsum dolor sit amet consectetur adipisicing elit.</figcaption>
+              <img class="lazy rounded-lg" data-src="{{ url('/assets/images/example.webp') }}" alt="">
+              <figcaption class="text-[#A5AAB5]">Lorem ipsum dolor sit amet consectetur adipisicing elit.</figcaption>
             </figure>
           </div>
           <div class="lg:col-span-7">
-            <blockquote class="relative font-bold text-xl md:text-2xl xl:text-3xl leading-normal md:leading-normal xl:leading-normal">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus repudiandae laboriosam impedit beatae, voluptatum unde!
+            <blockquote class="relative font-bold text-lg md:text-xl xl:text-2xl leading-normal md:leading-normal xl:leading-normal">
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus repudiandae laboriosam impedit beatae, voluptatum unde!</p>
             </blockquote>
             <x-call-to-action href="#">Call To Action</x-call-to-action>
           </div>
@@ -82,12 +82,12 @@
             <h2 class="font-bold mb-4">2023 Goal</h2>
             <p class="text-lg md:text-xl max-w-[430px]">LIIF is driving $5 billion in investments over the next decade to advance racial equity.</p>
             <div class="h-16 relative overflow-hidden flex mx-0 border border-[#92D0CE] items-center">
-              <span class="text-span absolute left-4 text-base sm:text-xl font-bold leading-none z-10" style="animation-play-state: running;">61% Funded</span>
-              <span class="text-span absolute left-[45%] text-base sm:text-xl font-bold leading-none opacity-0 translate-x-(-4) animate-fade-in paused z-10" style="animation-play-state: running;">reached by June 30, 2023</span>
+              <span class="text-span absolute left-4 text-base sm:text-xl font-bold leading-none z-10"><span id="target">61</span>% Funded</span>
+              <span class="text-span absolute left-[45%] text-base sm:text-xl font-bold leading-none opacity-0 translate-x-(-4) z-10">reached by June 30, 2023</span>
               <div class="w-full h-full absolute bg-[#92D0CE]"></div>
-              <div id="bar" class="h-full bg-gradient-to-r from-[#0D373C] to-[#166670] relative w-0 transition-width duration-300 ease-out" style="width: 61%;"></div>
+              <div id="bar" class="h-full bg-gradient-to-r from-[#0D373C] to-[#166670] relative w-0 transition-width duration-1000 ease-out"></div>
             </div>
-            <div class="font-oswald font-bold text-right clamp-[text,7xl,9xl] leading-none mt-8">
+            <div class="font-oswald font-bold text-right clamp-[text,7xl,9xl] leading-none mt-8" aria-label="5 billion dollars">
               <sup>$</sup>5B
             </div>
           </div>
@@ -117,7 +117,7 @@
           <x-call-to-action href="#">Call To Action</x-call-to-action>
         </div>
         <figure>
-          <img class="rounded-lg" src="{{ url('/assets/images/example.webp') }}" alt="">
+          <img class="lazy rounded-lg" data-src="{{ url('/assets/images/example.webp') }}" alt="">
         </figure>
       </div>
     </div>
@@ -128,19 +128,19 @@
       <div class="grid gap-16 md:grid-cols-12 mb-12 md:mb-24">
         <div class="md:col-span-7">
           <div class="grid grid-cols-2 gap-4 sm:gap-8">
-            <figure class="row-span-2">
-              <img class="w-full h-full object-cover rounded-lg grayscale" src="{{ url('/assets/images/example.webp') }}" alt="">
+            <figure class="row-span-2 overlay overlay--beige">
+              <img class="lazy w-full h-full object-cover grayscale" data-src="{{ url('/assets/images/example.webp') }}" alt="">
             </figure>
-            <figure>
-              <img class="w-full h-full object-cover rounded-lg grayscale" src="{{ url('/assets/images/example.webp') }}" alt="">
+            <figure class="overlay overlay--beige">
+              <img class="lazy w-full h-full object-cover grayscale" data-src="{{ url('/assets/images/example.webp') }}" alt="">
             </figure>
-            <figure class="col-start-2 max-w-[60%]">
-              <img class="w-full h-full object-cover rounded-lg grayscale" src="{{ url('/assets/images/example.webp') }}" alt="">
+            <figure class="col-start-2 max-w-[60%] overlay overlay--beige">
+              <img class="lazy w-full h-full object-cover grayscale" data-src="{{ url('/assets/images/example.webp') }}" alt="">
             </figure>
           </div>
         </div>
-        <div class="flex flex-col justify-center md:col-span-5">
-          <h2 class="text-4xl">Affordable Housing: Lorem ipsum dolor sit amet consectetur adipisicing elit.</h2>
+        <div class="flex flex-col justify-center md:col-span-5 text-[#39382F]">
+          <h2 class="text-3xl">Affordable Housing: Lorem ipsum dolor sit amet consectetur adipisicing elit.</h2>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum expedita, ducimus ipsum est natus corrupti eius amet quam commodi obcaecati fugiat? Ipsum quo eligendi suscipit facilis quos sapiente, reprehenderit quasi.</p>
           <x-call-to-action href="#">Call To Action</x-call-to-action>
         </div>
@@ -148,26 +148,26 @@
       <div class="grid gap-16 md:grid-cols-12 mb-12 md:mb-24">
         <div class="md:col-span-7">
           <div class="grid grid-cols-2 gap-4 sm:gap-8">
-            <figure class="max-w-[60%] ml-auto">
-              <img class="w-full h-full object-cover rounded-lg grayscale" src="{{ url('/assets/images/example.webp') }}" alt="">
+            <figure class="max-w-[60%] ml-auto overlay overlay--green">
+              <img class="lazy w-full h-full object-cover grayscale" data-src="{{ url('/assets/images/example.webp') }}" alt="">
             </figure>
-            <figure class="col-start-1 row-start-2">
-              <img class="w-full h-full object-cover rounded-lg grayscale" src="{{ url('/assets/images/example.webp') }}" alt="">
+            <figure class="col-start-1 row-start-2 overlay overlay--green">
+              <img class="lazy w-full h-full object-cover grayscale" data-src="{{ url('/assets/images/example.webp') }}" alt="">
             </figure>
-            <figure class="col-start-2 row-start-1 row-span-2">
-              <img class="w-full h-full object-cover rounded-lg grayscale" src="{{ url('/assets/images/example.webp') }}" alt="">
+            <figure class="col-start-2 row-start-1 row-span-2 overlay overlay--green">
+              <img class="lazy w-full h-full object-cover grayscale" data-src="{{ url('/assets/images/example.webp') }}" alt="">
             </figure>
           </div>
         </div>
-        <div class="flex flex-col justify-center md:col-span-5">
-          <h2 class="text-4xl">Early Care And Education: Lorem ipsum dolor sit amet consectetur adipisicing elit.</h2>
+        <div class="flex flex-col justify-center md:col-span-5 text-[#0C393E]">
+          <h2 class="text-3xl">Early Care And Education: Lorem ipsum dolor sit amet consectetur adipisicing elit.</h2>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum expedita, ducimus ipsum est natus corrupti eius amet quam commodi obcaecati fugiat? Ipsum quo eligendi suscipit facilis quos sapiente, reprehenderit quasi.</p>
           <x-call-to-action href="#">Call To Action</x-call-to-action>
         </div>
       </div>
-      <div class="grid gap-16 md:grid-cols-12">
+      <div class="grid gap-16 md:grid-cols-12 mb-4 text-[#16223B]">
         <div class="flex flex-col justify-center md:col-span-7">
-          <h2 class="text-4xl">Impact-Led Lending (Irp)</h2>
+          <h2 class="text-3xl">Impact-Led Lending (Irp)</h2>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum expedita, ducimus ipsum est natus corrupti eius amet quam commodi obcaecati fugiat? Ipsum quo eligendi suscipit facilis quos sapiente, reprehenderit quasi.</p>
         </div>
       </div>
@@ -179,13 +179,13 @@
               <div class="grid lg:gap-16 lg:grid-cols-12">
                 <div class="lg:col-span-5">
                   <figure class="mb-8">
-                    <img class="rounded-lg" src="{{ url('/assets/images/example.webp') }}" alt="">
+                    <img class="lazy rounded-lg" data-src="{{ url('/assets/images/example.webp') }}" alt="">
                     <figcaption>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt ratione, vitae dolore deleniti nam, dolores inventore excepturi repellat facere, nisi dolor laudantium laborum natus culpa. Dicta delectus obcaecati reiciendis esse?</figcaption>
                   </figure>
                 </div>
                 <div class="lg:col-span-7">
-                  <blockquote class="relative font-bold text-xl md:text-2xl xl:text-3xl leading-normal md:leading-normal xl:leading-normal">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus repudiandae laboriosam impedit beatae, voluptatum unde! Quae quibusdam nostrum perspiciatis dolore accusantium vero tempora, recusandae id dignissimos, animi, unde laudantium doloribus.
+                  <blockquote class="relative font-bold text-lg md:text-xl xl:text-2xl leading-normal md:leading-normal xl:leading-normal">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus repudiandae laboriosam impedit beatae, voluptatum unde! Quae quibusdam nostrum perspiciatis dolore accusantium vero tempora, recusandae id dignissimos, animi, unde laudantium doloribus.</p>
                   </blockquote>
                 </div>
               </div>
@@ -194,13 +194,13 @@
               <div class="grid lg:gap-16 lg:grid-cols-12">
                 <div class="lg:col-span-5">
                   <figure class="mb-8">
-                    <img class="rounded-lg" src="{{ url('/assets/images/example.webp') }}" alt="">
+                    <img class="lazy rounded-lg" data-src="{{ url('/assets/images/example.webp') }}" alt="">
                     <figcaption>Lorem ipsum dolor sit amet consectetur adipisicing elit.</figcaption>
                   </figure>
                 </div>
                 <div class="lg:col-span-7">
-                  <blockquote class="relative font-bold text-xl md:text-2xl xl:text-3xl leading-normal md:leading-normal xl:leading-normal">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus repudiandae laboriosam impedit beatae, voluptatum unde!
+                  <blockquote class="relative font-bold text-lg md:text-xl xl:text-2xl leading-normal md:leading-normal xl:leading-normal">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus repudiandae laboriosam impedit beatae, voluptatum unde!</p>
                   </blockquote>
                 </div>
               </div>
@@ -209,13 +209,13 @@
               <div class="grid lg:gap-16 lg:grid-cols-12">
                 <div class="lg:col-span-5">
                   <figure class="mb-8">
-                    <img class="rounded-lg" src="{{ url('/assets/images/example.webp') }}" alt="">
+                    <img class="lazy rounded-lg" data-src="{{ url('/assets/images/example.webp') }}" alt="">
                     <figcaption>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt ratione, vitae dolore deleniti nam, dolores inventore excepturi repellat facere, nisi dolor laudantium laborum natus culpa. Dicta delectus obcaecati reiciendis esse?</figcaption>
                   </figure>
                 </div>
                 <div class="lg:col-span-7">
-                  <blockquote class="relative font-bold text-xl md:text-2xl xl:text-3xl leading-normal md:leading-normal xl:leading-normal text-white">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus repudiandae laboriosam impedit beatae, voluptatum unde! Quae quibusdam nostrum perspiciatis dolore accusantium vero tempora, recusandae id dignissimos, animi, unde laudantium doloribus.
+                  <blockquote class="relative font-bold text-lg md:text-xl xl:text-2xl leading-normal md:leading-normal xl:leading-normal text-white">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus repudiandae laboriosam impedit beatae, voluptatum unde! Quae quibusdam nostrum perspiciatis dolore accusantium vero tempora, recusandae id dignissimos, animi, unde laudantium doloribus.</p>
                   </blockquote>
                 </div>
               </div>

@@ -18,11 +18,29 @@ h2 {
 }
 
 p {
-  @apply mb-8;
+  @apply mb-4;
 }
 
 a {
   @apply underline;
+}
+
+img.lazy {
+  opacity: 0;
+}
+
+img:not(.initial) {
+  transition: opacity 1s;
+}
+
+img.initial,
+img.loaded,
+img.error {
+  opacity: 1;
+}
+
+img:not([src]) {
+  visibility: hidden;
 }
 
 blockquote {
@@ -158,6 +176,11 @@ th[scope="row"] {
   @apply text-left;
 }
 
+sup {
+  top: -2.5rem;
+  font-size: 60%;
+}
+
 th,
 td {
   border-bottom: 1px solid #093236;
@@ -213,7 +236,7 @@ button[role="tab"]:focus-visible {
 }
 
 .overlay {
-  @apply relative rounded-xl overflow-hidden;
+  @apply relative rounded-xl overflow-hidden isolate;
 }
 
 .overlay--green::after {
@@ -232,4 +255,18 @@ button[role="tab"]:focus-visible {
   @apply absolute top-0 w-full h-full bg-[#E5E5DC] opacity-40;
 
   content: '';
+}
+
+#bar {
+  @apply w-0;
+}
+
+#bar.in-viewport {
+  @apply w-[61%];
+}
+
+@media screen and (prefers-reduced-motion: reduce) {
+  #bar {
+    @apply w-[61%];
+  }
 }
