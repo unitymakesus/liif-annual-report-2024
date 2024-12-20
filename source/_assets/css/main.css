@@ -75,6 +75,10 @@ blockquote::after {
   }
 }
 
+blockquote cite {
+  @apply text-base;
+}
+
 figcaption {
   @apply text-sm mt-4;
 }
