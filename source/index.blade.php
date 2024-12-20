@@ -490,6 +490,24 @@
                 <td>98</td>
                 <td>50</td>
               </tr>
+              <tr>
+                <th scope="row">Change in assets without donor restriction</th>
+                <td>15</td>
+                <td>3</td>
+                <td>3</td>
+              </tr>
+              <tr>
+                <th scope="row">Change in assets with donor restriction</th>
+                <td>(1)</td>
+                <td>(4)</td>
+                <td>5</td>
+              </tr>
+              <tr class="total-row">
+                <th scope="row">Change in total net assets</th>
+                <td>14</td>
+                <td>(1)</td>
+                <td>8</td>
+              </tr>
             </tbody>
           </table>
         </div>
