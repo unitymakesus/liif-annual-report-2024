@@ -8,13 +8,13 @@
         <div class="lg:col-span-6">
           <div class="grid grid-cols-2 gap-4 sm:gap-8">
             <figure class="overlay overlay--blue">
-              <img class="lazy w-full h-full object-cover grayscale" data-src="{{ url('/assets/images/example.webp') }}" alt="">
+              <img class="lazy w-full h-full object-cover grayscale" data-src="{{ url('/assets/images/mission1.webp') }}" alt="Neatly arranged toys on a shelf in a preschool classroom.">
             </figure>
             <figure class="col-start-1 row-start-2 max-w-[60%] ml-auto overlay overlay--blue">
-              <img class="lazy w-full h-full object-cover grayscale" data-src="{{ url('/assets/images/example.webp') }}" alt="">
+              <img class="lazy w-full h-full object-cover grayscale" data-src="{{ url('/assets/images/mission2.webp') }}" alt="A brick apartment building with an inviting front entrance.">
             </figure>
             <figure class="col-start-2 row-start-1 row-span-2 overlay overlay--blue">
-              <img class="lazy w-full h-full object-cover grayscale" data-src="{{ url('/assets/images/example.webp') }}" alt="">
+              <img class="lazy w-full h-full object-cover grayscale" data-src="{{ url('/assets/images/mission3.webp') }}" alt="A woman in a blue and yellow polka dot dress poses confidently in front of a sign for a childcare academy.">
             </figure>
           </div>
         </div>
@@ -36,7 +36,7 @@
           <p>With a commitment to deepen our impact in lending, we developed the Impact-Risk-Profitability (IRP) Framework, which triangulates impact, risk and profitability to strategically allocate capital. Via a set of tools, the IRP operationalizes racial equity into how LIIF approaches lending. Our goal is prioritizing financing that builds power and agency for borrowers — and their communities.</p>
         </div>
         <figure class="flex flex-col justify-center">
-          <img class="lazy rounded-lg grayscale" data-src="{{ url('/assets/images/our-history.webp') }}" alt="">
+          <img class="lazy rounded-lg grayscale" data-src="{{ url('/assets/images/our-history.webp') }}" alt="Partially visible illustrated timeline photo of LIIF.">
         </figure>
       </div>
     </div>
@@ -50,7 +50,7 @@
         <div class="grid lg:gap-16 lg:grid-cols-12">
           <div class="lg:col-span-5">
             <figure class="mb-8">
-              <img class="lazy rounded-lg" data-src="{{ url('/assets/images/feature-leadership.webp') }}" alt="">
+              <img class="lazy rounded-lg" data-src="{{ url('/assets/images/feature-leadership.webp') }}" alt="Daniel A. Nissenbaum and Reymundo Ocañas talking together while walking down the street.">
               <figcaption class="text-[#A5AAB5]">Chief Executive Officer Daniel A. Nissenbaum (left) and Board Chair Reymundo Ocañas (right)</figcaption>
             </figure>
           </div>
@@ -93,18 +93,53 @@
             </div>
           </div>
           <div tabindex="0" role="tabpanel" id="tabpanel-community" aria-labelledby="tab-community" hidden>
-            <h2 class="font-bold">Community</h2>
+            <div class="grid gap-4 lg:grid-cols-2">
+              <h2 class="font-bold">Community</h2>
+              <div class="text-right mt-8">
+                <div class="font-oswald font-bold clamp-[text,7xl,9xl] leading-none" aria-label="338 million dollars">
+                  <sup>$</sup>338M
+                </div>
+                <div class="text-lg md:text-xl">total invested</div>
+              </div>
+            </div>
           </div>
           <div tabindex="0" role="tabpanel" id="tabpanel-people" aria-labelledby="tab-people" hidden>
-            <h2 class="font-bold">People</h2>
+            <div class="grid gap-4 lg:grid-cols-2">
+              <h2 class="font-bold">People</h2>
+              <div class="text-right mt-8">
+                <div class="font-oswald font-bold clamp-[text,7xl,9xl] leading-none" aria-label="59 thousand">
+                  59k
+                </div>
+                <div class="text-lg md:text-xl">people served</div>
+              </div>
+            </div>
           </div>
           <div tabindex="0" role="tabpanel" id="tabpanel-affordable-housing" aria-labelledby="tab-affordable-housing" hidden>
-            <h2 class="font-bold">Affordable Housing</h2>
+            <div class="grid gap-4 lg:grid-cols-2">
+              <h2 class="font-bold">Affordable Housing</h2>
+              <div class="text-right mt-8">
+                <div class="font-oswald font-bold clamp-[text,7xl,9xl] leading-none" aria-label="5,800">
+                  5.8k
+                </div>
+                <div class="text-lg md:text-xl">affordable housing units created or preserved</div>
+              </div>
+            </div>
           </div>
           <div tabindex="0" role="tabpanel" id="tabpanel-child-care" aria-labelledby="tab-child-care" hidden>
-            <h2 class="font-bold">Child Care</h2>
+            <div class="grid gap-4 lg:grid-cols-2">
+              <h2 class="font-bold">Child Care</h2>
+              <div class="text-right mt-8">
+                <div class="font-oswald font-bold clamp-[text,7xl,9xl] leading-none" aria-label="43,500">
+                  43.5k
+                </div>
+                <div class="text-lg md:text-xl">child care spaces positively impacted</div>
+              </div>
+            </div>
           </div>
         </div>
+      </div>
+      <div class="mt-4 text-right">
+        *Stats FY24 (July 1, 2023 – June 30, 2024)
       </div>
     </div>
   </section>
@@ -119,7 +154,7 @@
           <x-call-to-action href="https://liif.org/investing-in-the-future-40-years-strong">Read the full story.</x-call-to-action>
         </div>
         <figure>
-          <img class="lazy rounded-lg" data-src="{{ url('/assets/images/anchor-story.webp') }}" alt="">
+          <img class="lazy rounded-lg" data-src="{{ url('/assets/images/anchor-story.webp') }}" alt="The LIIF team gathered together in a lobby.">
         </figure>
       </div>
     </div>
@@ -131,13 +166,13 @@
         <div class="md:col-span-7">
           <div class="grid grid-cols-2 gap-4 sm:gap-8">
             <figure class="row-span-2 overlay overlay--beige">
-              <img class="lazy w-full h-full object-cover grayscale" data-src="{{ url('/assets/images/example.webp') }}" alt="">
+              <img class="lazy w-full h-full object-cover grayscale" data-src="{{ url('/assets/images/AH2.webp') }}" alt="A woman and a man pose together for a photo outside on a sunny day.">
             </figure>
             <figure class="overlay overlay--beige">
-              <img class="lazy w-full h-full object-cover grayscale" data-src="{{ url('/assets/images/example.webp') }}" alt="">
+              <img class="lazy w-full h-full object-cover grayscale" data-src="{{ url('/assets/images/AH3.webp') }}" alt="A car passes by a vibrant building featuring a strikingly colorful glass facade.">
             </figure>
             <figure class="col-start-2 max-w-[60%] overlay overlay--beige">
-              <img class="lazy w-full h-full object-cover grayscale" data-src="{{ url('/assets/images/example.webp') }}" alt="">
+              <img class="lazy w-full h-full object-cover grayscale" data-src="{{ url('/assets/images/AH1.webp') }}" alt="A group of people gathered in front of a modern, stylish apartment building.">
             </figure>
           </div>
         </div>
@@ -151,13 +186,13 @@
         <div class="md:col-span-7">
           <div class="grid grid-cols-2 gap-4 sm:gap-8">
             <figure class="max-w-[60%] ml-auto overlay overlay--green">
-              <img class="lazy w-full h-full object-cover grayscale" data-src="{{ url('/assets/images/example.webp') }}" alt="">
+              <img class="lazy w-full h-full object-cover grayscale" data-src="{{ url('/assets/images/ECE1.webp') }}" alt="A playground filled with bright play equipment, situated in front of a building.">
             </figure>
             <figure class="col-start-1 row-start-2 overlay overlay--green">
-              <img class="lazy w-full h-full object-cover grayscale" data-src="{{ url('/assets/images/example.webp') }}" alt="">
+              <img class="lazy w-full h-full object-cover grayscale" data-src="{{ url('/assets/images/ECE2.webp') }}" alt="A woman plays with two young children in a vibrant classroom, surrounded by toys and cheerful decorations.">
             </figure>
             <figure class="col-start-2 row-start-1 row-span-2 overlay overlay--green">
-              <img class="lazy w-full h-full object-cover grayscale" data-src="{{ url('/assets/images/example.webp') }}" alt="">
+              <img class="lazy w-full h-full object-cover grayscale" data-src="{{ url('/assets/images/ECE3.webp') }}" alt="A man and woman hold a sign that says Thank You LIIF.">
             </figure>
           </div>
         </div>
@@ -182,8 +217,7 @@
               <div class="grid lg:gap-16 lg:grid-cols-12">
                 <div class="lg:col-span-5">
                   <figure class="mb-8">
-                    <img class="lazy rounded-lg" data-src="{{ url('/assets/images/example.webp') }}" alt="">
-                    <figcaption>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt ratione, vitae dolore deleniti nam, dolores inventore excepturi repellat facere, nisi dolor laudantium laborum natus culpa. Dicta delectus obcaecati reiciendis esse?</figcaption>
+                    <img class="lazy rounded-lg" data-src="{{ url('/assets/images/alaing.webp') }}" alt="Portrait of Alexis Laing.">
                   </figure>
                 </div>
                 <div class="lg:col-span-7">
@@ -198,8 +232,7 @@
               <div class="grid lg:gap-16 lg:grid-cols-12">
                 <div class="lg:col-span-5">
                   <figure class="mb-8">
-                    <img class="lazy rounded-lg" data-src="{{ url('/assets/images/example.webp') }}" alt="">
-                    <figcaption>Lorem ipsum dolor sit amet consectetur adipisicing elit.</figcaption>
+                    <img class="lazy rounded-lg" data-src="{{ url('/assets/images/miller.webp') }}" alt="Portrait of Mike Miller.">
                   </figure>
                 </div>
                 <div class="lg:col-span-7">
@@ -214,8 +247,7 @@
               <div class="grid lg:gap-16 lg:grid-cols-12">
                 <div class="lg:col-span-5">
                   <figure class="mb-8">
-                    <img class="lazy rounded-lg" data-src="{{ url('/assets/images/example.webp') }}" alt="">
-                    <figcaption>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt ratione, vitae dolore deleniti nam, dolores inventore excepturi repellat facere, nisi dolor laudantium laborum natus culpa. Dicta delectus obcaecati reiciendis esse?</figcaption>
+                    <img class="lazy rounded-lg" data-src="{{ url('/assets/images/detraharris.webp') }}" alt="Portrait of Detra Harris.">
                   </figure>
                 </div>
                 <div class="lg:col-span-7">
