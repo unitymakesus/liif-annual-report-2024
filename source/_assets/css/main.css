@@ -57,8 +57,10 @@ blockquote::before {
   top: 2rem;
   left: -1rem;
   content: open-quote;
+}
 
-  @media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) {
+  blockquote::before {
     top: 4rem;
     left: -2rem;
   }
@@ -68,8 +70,10 @@ blockquote::after {
   bottom: -2.5rem;
   right: 1rem;
   content: close-quote;
+}
 
-  @media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) {
+  blockquote::after {
     bottom: -5rem;
     right: 2rem;
   }
