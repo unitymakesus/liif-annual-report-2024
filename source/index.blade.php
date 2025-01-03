@@ -58,7 +58,7 @@
             <blockquote class="relative font-bold text-lg md:text-xl xl:text-2xl leading-normal md:leading-normal xl:leading-normal">
               <p>As LIIF celebrates its 40th year of service and commitment to improving underserved communities, we express heartfelt gratitude to our supporters from the private, philanthropic and public sectors who have played a crucial role in this incredible journey. Your essential partnership has empowered us to strengthen our position as a trusted partner with a proven track record of success.</p>
             </blockquote>
-            <x-call-to-action href="https://liif.org/annual-letter-from-our-ceo-and-board-chair-as-liif-celebrates-turning-40">Read the full letter.</x-call-to-action>
+            <x-call-to-action href="https://liifund.org/annual-letter-from-our-ceo-and-board-chair-as-liif-celebrates-turning-40">Read the full letter.</x-call-to-action>
           </div>
         </div>
       </div>
@@ -151,7 +151,7 @@
           <h2 class="font-bold text-3xl leading-tight md:text-5xl md:leading-tight mb-8">Investing in the Future: 40 Years Strong</h2>
           <p>In 1984, the Low Income Investment Fund (LIIF) was created to address the growing challenges faced by underserved communities. Forty years later, LIIF stands as a national leader with a proud legacy of creating opportunities for millions of people and strengthening communities. Over the decades, LIIF has deployed $3.5+ billion in capital to support small businesses, create jobs and improve local economies while impacting the lives of 2.5 million people in historically excluded communities. Lasting, transformative and systemic change has occurred.</p>
           <p>This milestone is more than just a celebration of years past: It’s a testament to the power of strategic investments, resilience and our unwavering commitment to social justice. We remain steadfastly committed to this critical work.</p>
-          <x-call-to-action href="https://liif.org/investing-in-the-future-40-years-strong">Read the full story.</x-call-to-action>
+          <x-call-to-action href="https://liifund.org/investing-in-the-future-40-years-strong">Read the full story.</x-call-to-action>
         </div>
         <figure>
           <img class="lazy rounded-lg" data-src="{{ url('/assets/images/anchor-story.webp') }}" alt="The LIIF team gathered together in a lobby.">
@@ -179,7 +179,7 @@
         <div class="flex flex-col justify-center md:col-span-5 text-[#39382F]">
           <h2 class="text-3xl">Shaping the Future of Housing: LIIF’s Investments in Affordable Homes and Developers of Color</h2>
           <p>Our vision for affordable housing goes beyond simply deploying capital to developers for building or renovating properties; it’s about creating thriving, resilient communities where individuals and families — particularly those in Black, Latino and other communities of color — can access social and economic equity. These communities have long been excluded from opportunities to build generational wealth and secure stable housing, but through long-term, transformative investments, we are helping to change that narrative.</p>
-          <x-call-to-action href="https://liif.org/shaping-the-future-of-housing-liifs-investments-in-affordable-homes-and-developers-of-color">Read the full story.</x-call-to-action>
+          <x-call-to-action href="https://liifund.org/shaping-the-future-of-housing-liifs-investments-in-affordable-homes-and-developers-of-color">Read the full story.</x-call-to-action>
         </div>
       </div>
       <div class="grid gap-16 md:grid-cols-12 mb-12 md:mb-24">
@@ -199,7 +199,7 @@
         <div class="flex flex-col justify-center md:col-span-5 text-[#0C393E]">
           <h2 class="text-3xl">LIIF’s Commitment to Equity and Sustainability of the Early Care and Education Ecosystem</h2>
           <p>At LIIF, we are committed to centering community voices as the foundation for driving sustainable change in the early care and education (ECE) sector. Providers, families and children each offer valuable insights into the challenges they face, and their experiences are integral to shaping our work. By listening to and prioritizing their voices, we gain a deeper understanding of the unique needs within communities, allowing us to more effectively address barriers and ensure our resources create long-term, sustainable solutions.</p>
-          <x-call-to-action href="https://liif.org/liifs-commitment-to-equity-and-sustainability-of-the-early-care-and-education-ecosystem">Read the full story.</x-call-to-action>
+          <x-call-to-action href="https://liifund.org/liifs-commitment-to-equity-and-sustainability-of-the-early-care-and-education-ecosystem">Read the full story.</x-call-to-action>
         </div>
       </div>
       <div class="grid gap-16 md:grid-cols-12 mb-4 text-[#16223B]">
