@@ -4,9 +4,9 @@
   @include('_partials.header')
   <section class="bg-[#E5E5DD] pb-24">
     <div class="container">
-      <div class="grid gap-8 lg:gap-16 lg:grid-cols-12">
-        <div class="lg:col-span-6">
-          <div class="grid grid-cols-2 gap-4 sm:gap-8">
+      <div class="grid gap-8 md:gap-16 md:grid-cols-12">
+        <div class="md:col-span-6">
+          <div class="grid grid-cols-2 gap-4 md:gap-6 lg:gap-8">
             <figure class="overlay overlay--blue">
               <img class="lazy w-full h-full object-cover grayscale" data-src="{{ url('/assets/images/mission1.webp') }}" alt="Neatly arranged toys on a shelf in a preschool classroom.">
             </figure>
@@ -18,7 +18,7 @@
             </figure>
           </div>
         </div>
-        <div class="flex flex-col justify-center lg:col-span-6">
+        <div class="flex flex-col justify-center md:col-span-6">
           <h2 class="leading-tight">Our Mission and Vision</h2>
           <p>Everyone in the United States should benefit from living in a community of opportunity, equity and well-being. LIIF mobilizes capital and partners to achieve this vision for people and communities.</p>
         </div>
@@ -155,8 +155,8 @@
 
   <section class="bg-[#E5E5DD] py-24">
     <div class="container">
-      <div class="grid gap-16 md:grid-cols-12 mb-12 md:mb-24">
-        <div class="md:col-span-7">
+      <div class="grid gap-16 lg:grid-cols-12 mb-12 md:mb-24">
+        <div class="lg:col-span-7">
           <div class="grid grid-cols-2 gap-4 sm:gap-8">
             <figure class="row-span-2 overlay overlay--beige">
               <img class="lazy w-full h-full object-cover grayscale" data-src="{{ url('/assets/images/AH2.webp') }}" alt="A woman and a man pose together for a photo outside on a sunny day.">
@@ -169,14 +169,14 @@
             </figure>
           </div>
         </div>
-        <div class="flex flex-col justify-center md:col-span-5 text-[#39382F]">
+        <div class="flex flex-col justify-center lg:col-span-5 text-[#39382F]">
           <h2 class="text-3xl">Shaping the Future of Housing: LIIF’s Investments in Affordable Homes and Developers of Color</h2>
           <p>Our vision for affordable housing goes beyond simply deploying capital to developers for building or renovating properties; it’s about creating thriving, resilient communities where individuals and families — particularly those in Black, Latino and other communities of color — can access social and economic equity. These communities have long been excluded from opportunities to build generational wealth and secure stable housing, but through long-term, transformative investments, we are helping to change that narrative.</p>
           <x-call-to-action href="https://liifund.org/shaping-the-future-of-housing-liifs-investments-in-affordable-homes-and-developers-of-color">Read the full story.</x-call-to-action>
         </div>
       </div>
-      <div class="grid gap-16 md:grid-cols-12 mb-12 md:mb-24">
-        <div class="md:col-span-7">
+      <div class="grid gap-16 lg:grid-cols-12 mb-12 md:mb-24">
+        <div class="lg:col-span-7">
           <div class="grid grid-cols-2 gap-4 sm:gap-8">
             <figure class="max-w-[60%] ml-auto overlay overlay--green">
               <img class="lazy w-full h-full object-cover grayscale" data-src="{{ url('/assets/images/ECE1.webp') }}" alt="A playground filled with bright play equipment, situated in front of a building.">
@@ -189,14 +189,14 @@
             </figure>
           </div>
         </div>
-        <div class="flex flex-col justify-center md:col-span-5 text-[#0C393E]">
+        <div class="flex flex-col justify-center lg:col-span-5 text-[#0C393E]">
           <h2 class="text-3xl">LIIF’s Commitment to Equity and Sustainability of the Early Care and Education Ecosystem</h2>
           <p>At LIIF, we are committed to centering community voices as the foundation for driving sustainable change in the early care and education (ECE) sector. Providers, families and children each offer valuable insights into the challenges they face, and their experiences are integral to shaping our work. By listening to and prioritizing their voices, we gain a deeper understanding of the unique needs within communities, allowing us to more effectively address barriers and ensure our resources create long-term, sustainable solutions.</p>
           <x-call-to-action href="https://liifund.org/liifs-commitment-to-equity-and-sustainability-of-the-early-care-and-education-ecosystem">Read the full story.</x-call-to-action>
         </div>
       </div>
-      <div class="grid gap-16 md:grid-cols-12 mb-4 text-[#16223B]">
-        <div class="flex flex-col justify-center md:col-span-7">
+      <div class="grid gap-16 lg:grid-cols-12 mb-4 text-[#16223B]">
+        <div class="flex flex-col justify-center lg:col-span-7">
           <h2 class="text-3xl">Impact Risk-Profitability</h2>
           <p>In 2022, LIIF made a commitment to reimagine the traditional Five Cs of credit (capacity, capital, conditions, character and collateral). That led to the creation of our Impact-Risk-Profitability (IRP) Framework — LIIF's new model for racial equity in lending. We saw this change as necessary if, as a leading national CDFI, we were to most impactfully deploy capital into historically excluded communities. It was paramount to consider the endemic systemic inequities that bar developers of color from accessing capital from traditional lenders.</p>
           <p>Our Black Developer Capital Initiative (BDCI) exemplifies how LIIF drives investments into communities of color. Despite strong track records, many developers of color have been systemically denied access to capital that would enable them to build more homes, grow their small businesses and create a generational asset. The following are three stories showcasing how racial equity in lending is a game changer.</p>
