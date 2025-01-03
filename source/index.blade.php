@@ -28,14 +28,15 @@
 
   <section class="bg-white py-16">
     <div class="container">
+      <h2>Our History</h2>
+
       <div class="grid gap-4 lg:gap-8 lg:grid-cols-2">
-        <div class="flex flex-col justify-center">
-          <h2>Our History</h2>
+        <div class="flex flex-col">
           <p>The Low Income Investment Fund (LIIF) is a leading community development financial institution (CDFI) with a storied history dating back four decades. Today, we remain in the vanguard of innovative capital solutions. LIIF is dedicated to supporting projects that have high social value but lack access to capital at traditional lenders. From our San Francisco headquarters — and with regional offices in New York City, Atlanta, Los Angeles and Washington, D.C. — LIIF invests to help create communities of opportunity, equity and well-being.</p>
           <p><strong>Since our founding, LIIF has invested more than $3.5 billion to serve 2.5 million people across the nation.</strong> We are steadfastly committed to increasing and preserving the supply of affordable homes, child care spaces and community facilities such as charter schools and federally qualified health centers (FQHCs). Our early care and education (ECE) strategies have expanded significantly, now comprising facilities fund management, capacity building and advisory services.</p>
           <p>With a commitment to deepen our impact in lending, we developed the Impact-Risk-Profitability (IRP) Framework, which triangulates impact, risk and profitability to strategically allocate capital. Via a set of tools, the IRP operationalizes racial equity into how LIIF approaches lending. Our goal is prioritizing financing that builds power and agency for borrowers — and their communities.</p>
         </div>
-        <figure class="flex flex-col justify-center">
+        <figure class="flex flex-col">
           <img class="lazy rounded-lg grayscale" data-src="{{ url('/assets/images/our-history.webp') }}" alt="Partially visible illustrated timeline photo of LIIF.">
         </figure>
       </div>
