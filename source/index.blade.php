@@ -19,7 +19,7 @@
           </div>
         </div>
         <div class="flex flex-col justify-center lg:col-span-6">
-          <h2>Our Mission and Vision</h2>
+          <h2 class="leading-tight">Our Mission and Vision</h2>
           <p>Everyone in the United States should benefit from living in a community of opportunity, equity and well-being. LIIF mobilizes capital and partners to achieve this vision for people and communities.</p>
         </div>
       </div>
@@ -74,11 +74,11 @@
       <div class="bg-[#0D373C] text-[#92D0CE] p-8 lg:p-16 xl:py-16 xl:px-24 rounded-xl sm:-mx-4">
         <div class="tabs tabs--main">
           <div role="tablist" class="flex flex-row flex-wrap gap-2 mb-2 border-b border-solid border-current" aria-orientation="horizontal" aria-label="">
-            <button role="tab" class="md:text-xl font-semibold py-2 px-4 md:py-4 md:px-8" id="tab-2030-goal" aria-selected="true" aria-controls="tabpanel-2030-goal">2030 Goal</button>
-            <button role="tab" class="md:text-xl font-semibold py-2 px-4 md:py-4 md:px-8" id="tab-community" aria-selected="false" aria-controls="tabpanel-community">Community</button>
-            <button role="tab" class="md:text-xl font-semibold py-2 px-4 md:py-4 md:px-8" id="tab-people" aria-selected="false" aria-controls="tabpanel-people">People</button>
-            <button role="tab" class="md:text-xl font-semibold py-2 px-4 md:py-4 md:px-8" id="tab-affordable-housing" aria-selected="false" aria-controls="tabpanel-affordable-housing">Affordable Housing</button>
-            <button role="tab" class="md:text-xl font-semibold py-2 px-4 md:py-4 md:px-8" id="tab-child-care" aria-selected="false" aria-controls="tabpanel-child-care">Child Care</button>
+            <button role="tab" class="md:text-lg lg:text-xl font-semibold py-2 px-4 md:py-4 md:px-8" id="tab-2030-goal" aria-selected="true" aria-controls="tabpanel-2030-goal">2030 Goal</button>
+            <button role="tab" class="md:text-lg lg:text-xl font-semibold py-2 px-4 md:py-4 md:px-8" id="tab-community" aria-selected="false" aria-controls="tabpanel-community">Community</button>
+            <button role="tab" class="md:text-lg lg:text-xl font-semibold py-2 px-4 md:py-4 md:px-8" id="tab-people" aria-selected="false" aria-controls="tabpanel-people">People</button>
+            <button role="tab" class="md:text-lg lg:text-xl font-semibold py-2 px-4 md:py-4 md:px-8" id="tab-affordable-housing" aria-selected="false" aria-controls="tabpanel-affordable-housing">Affordable Housing</button>
+            <button role="tab" class="md:text-lg lg:text-xl font-semibold py-2 px-4 md:py-4 md:px-8" id="tab-child-care" aria-selected="false" aria-controls="tabpanel-child-care">Child Care</button>
           </div>
           <div tabindex="0" role="tabpanel" id="tabpanel-2030-goal" aria-labelledby="tab-2030-goal">
             <h2 class="font-bold mb-4">2030 Goal</h2>
@@ -259,7 +259,7 @@
 
   <section class="bg-white py-16">
     <div class="container !max-w-6xl">
-      <h2>About Our Partnerships</h2>
+      <h2 class="leading-tight">About Our Partnerships</h2>
       <div class="max-w-3xl">
         <p>We forge strong partnerships with funders, foundations, government agencies and policymakers. LIIF drives racial equity in lending that supports the production and preservation of affordable housing; positively impacts children's spaces in the early care and education sector; and creates community facilities in historically under-resourced communities. Some examples follow showcasing how these partnerships lead to innovative programs, national funds and initiatives.</p>
       </div>
@@ -291,7 +291,7 @@
 
   <section class="bg-[#E5E5DD] text-[#002B6E] py-16">
     <div class="container !max-w-6xl">
-      <h2>Thanks to those who support our mission.</h2>
+      <h2 class="leading-tight">Thanks to those who support our mission.</h2>
       <ul class="sm:columns-2 lg:columns-3 gap-4 border-t border-current pt-4">
         @foreach ($page->supporters as $supporter)
           <li class="mb-4">{{ strip_tags($supporter) }}</li>
@@ -302,7 +302,7 @@
 
   <section class="bg-white text-[#093236] py-16">
     <div class="container !max-w-6xl">
-      <h2>Consolidated Financials</h2>
+      <h2 class="leading-tight">Consolidated Financials</h2>
       <div class="tabs tabs--dark-green">
         <div role="tablist" class="flex flex-row flex-wrap gap-2 mb-2 border-b border-solid border-current" aria-orientation="horizontal" aria-label="LIIF Consolidated Financials">
           <button role="tab" class="text-lg font-semibold py-1 px-4" id="tab-financial-position" aria-selected="true" aria-controls="tabpanel-financial-position">Financial Position</button>
@@ -542,7 +542,7 @@
 
   <section class="bg-[#F2F6F9] text-[#132D77] py-16">
     <div class="container !max-w-6xl">
-      <h2>Board of Directors & Leadership</h2>
+      <h2 class="leading-tight">Board of Directors & Leadership</h2>
 
       <div class="mb-16">
         <h3 class="font-sans font-semibold text-lg pb-1 mb-2 border-b border-solid border-current">Officers</h3>
