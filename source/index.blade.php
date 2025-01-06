@@ -89,50 +89,55 @@
               <div class="w-full h-full absolute bg-[#92D0CE]"></div>
               <div id="bar" class="h-full bg-gradient-to-r from-[#0D373C] to-[#166670] relative w-0 transition-width duration-1000 ease-out"></div>
             </div>
-            <div class="font-oswald font-bold text-right clamp-[text,7xl,9xl] leading-none mt-8" aria-label="5 billion dollars">
+            <div class="font-oswald font-bold text-right clamp-[text,7xl,9xl] leading-none mt-8" aria-hidden="true">
               <sup>$</sup>5B
             </div>
+            <div class="sr-only">5 billion dollars</div>
           </div>
           <div tabindex="0" role="tabpanel" id="tabpanel-community" aria-labelledby="tab-community" hidden>
             <h2 class="font-bold">Community</h2>
             <div class="text-right mt-8">
-              <div class="font-oswald font-bold clamp-[text,7xl,9xl] leading-none" aria-label="338 million dollars">
+              <div class="font-oswald font-bold clamp-[text,7xl,9xl] leading-none" aria-hidden="true">
                 <sup>$</sup>338M
               </div>
+              <div class="sr-only">338 million dollars</div>
               <div class="text-lg md:text-xl">total invested</div>
             </div>
           </div>
           <div tabindex="0" role="tabpanel" id="tabpanel-people" aria-labelledby="tab-people" hidden>
             <h2 class="font-bold">People</h2>
             <div class="text-right mt-8">
-              <div class="font-oswald font-bold clamp-[text,7xl,9xl] leading-none" aria-label="59 thousand">
+              <div class="font-oswald font-bold clamp-[text,7xl,9xl] leading-none" aria-hidden="true">
                 59k
               </div>
+              <div class="sr-only">59 thousand</div>
               <div class="text-lg md:text-xl">people served</div>
             </div>
           </div>
           <div tabindex="0" role="tabpanel" id="tabpanel-affordable-housing" aria-labelledby="tab-affordable-housing" hidden>
             <h2 class="font-bold">Affordable Housing</h2>
             <div class="text-right mt-8">
-              <div class="font-oswald font-bold clamp-[text,7xl,9xl] leading-none" aria-label="5,800">
+              <div class="font-oswald font-bold clamp-[text,7xl,9xl] leading-none" aria-hidden="true">
                 5.8k
               </div>
+              <div class="sr-only">5,800</div>
               <div class="text-lg md:text-xl">affordable housing units created or preserved</div>
             </div>
           </div>
           <div tabindex="0" role="tabpanel" id="tabpanel-child-care" aria-labelledby="tab-child-care" hidden>
             <h2 class="font-bold">Child Care</h2>
             <div class="text-right mt-8">
-              <div class="font-oswald font-bold clamp-[text,7xl,9xl] leading-none" aria-label="43,500">
+              <div class="font-oswald font-bold clamp-[text,7xl,9xl] leading-none" aria-hidden="true">
                 43.5k
               </div>
+              <div class="sr-only">43,500</div>
               <div class="text-lg md:text-xl">child care spaces positively impacted</div>
             </div>
           </div>
         </div>
       </div>
       <div class="mt-4 text-right">
-        *Stats FY24 (July 1, 2023 – June 30, 2024)
+        *Stats FY24 (July 1, 2023 - June 30, 2024)
       </div>
     </div>
   </section>
