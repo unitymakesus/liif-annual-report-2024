@@ -360,9 +360,6 @@
           </table>
           <table>
             <thead>
-              <tr>
-                <th scope="row" class="table-headers" colspan="4">Liabilities and Net Assets</th>
-              </tr>
               <tr class="table-headers">
                 <th scope="row">Liabilities</th>
                 <th scope="col" class="text-center">2024</th>
@@ -486,9 +483,6 @@
           </table>
           <table>
             <thead>
-              {{-- <tr>
-                <th scope="row" class="table-headers" colspan="4">Expenses</th>
-              </tr> --}}
               <tr class="table-headers">
                 <th scope="row">Expenses</th>
                 <th scope="col" class="text-center">2024</th>
@@ -515,6 +509,18 @@
                 <td>98</td>
                 <td>50</td>
               </tr>
+            </tbody>
+          </table>
+          <table>
+            <thead>
+              <tr class="table-headers">
+                <th scope="row">Change in Assets</th>
+                <th scope="col" class="text-center">2024</th>
+                <th scope="col" class="text-center">2023</th>
+                <th scope="col" class="text-center">2022</th>
+              </tr>
+            </thead>
+            <tbody>
               <tr>
                 <th scope="row">Change in assets without donor restriction</th>
                 <td>15</td>
