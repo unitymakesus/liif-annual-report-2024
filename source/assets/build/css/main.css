@@ -686,6 +686,9 @@ video {
 .max-w-\[75px\] {
   max-width: 75px;
 }
+.max-w-\[80\%\] {
+  max-width: 80%;
+}
 .grow {
   flex-grow: 1;
 }
@@ -941,10 +944,6 @@ video {
   --tw-text-opacity: 1;
   color: rgb(57 56 47 / var(--tw-text-opacity));
 }
-.text-\[\#498893\] {
-  --tw-text-opacity: 1;
-  color: rgb(73 136 147 / var(--tw-text-opacity));
-}
 .text-\[\#92D0CE\] {
   --tw-text-opacity: 1;
   color: rgb(146 208 206 / var(--tw-text-opacity));
@@ -1037,6 +1036,7 @@ body {
 h2 {
   margin-bottom: 1rem;
   display: block;
+  text-wrap: pretty;
   font-family: Oswald, sans-serif;
   font-size: 2.25rem;
   line-height: 2.5rem;
@@ -1050,8 +1050,12 @@ h2 {
     line-height: 1.5;
   }
 }
+h3 {
+  text-wrap: pretty;
+}
 p {
   margin-bottom: 1rem;
+  text-wrap: pretty;
 }
 a {
   text-decoration-line: underline;
@@ -1167,6 +1171,13 @@ figcaption {
   border-color: rgb(9 50 54 / var(--tw-border-opacity));
   font-weight: 700;
 }
+.table-headers {
+  --tw-bg-opacity: 1;
+  background-color: rgb(240 243 243 / var(--tw-bg-opacity));
+}
+.table-headers th[scope="row"], .total-row th[scope="row"] {
+  font-weight: 700;
+}
 .consolidated-financials ul {
   border-bottom: 1px solid #093236;
   margin-bottom: 1rem;
@@ -1218,6 +1229,7 @@ table {
 }
 th[scope="row"] {
   text-align: left;
+  font-weight: 400;
 }
 sup {
   top: -2.5rem;
@@ -1322,7 +1334,7 @@ button[role="tab"]:focus-visible {
   width: 100%;
   --tw-bg-opacity: 1;
   background-color: rgb(44 138 149 / var(--tw-bg-opacity));
-  opacity: 0.4;
+  opacity: 0.3;
 
   content: '';
 }
@@ -1333,7 +1345,7 @@ button[role="tab"]:focus-visible {
   width: 100%;
   --tw-bg-opacity: 1;
   background-color: rgb(72 88 121 / var(--tw-bg-opacity));
-  opacity: 0.4;
+  opacity: 0.3;
 
   content: '';
 }
@@ -1344,7 +1356,7 @@ button[role="tab"]:focus-visible {
   width: 100%;
   --tw-bg-opacity: 1;
   background-color: rgb(229 229 220 / var(--tw-bg-opacity));
-  opacity: 0.4;
+  opacity: 0.3;
 
   content: '';
 }
@@ -1427,6 +1439,10 @@ button[role="tab"]:focus-visible {
 
   .md\:col-span-6 {
     grid-column: span 6 / span 6;
+  }
+
+  .md\:col-span-8 {
+    grid-column: span 8 / span 8;
   }
 
   .md\:col-span-9 {

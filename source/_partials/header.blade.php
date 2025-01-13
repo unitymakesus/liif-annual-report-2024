@@ -2,7 +2,7 @@
   <div class="container">
     <div class="flex items-center justify-center gap-4">
       <img src="{{ url('/assets/images/logo-liif.svg') }}" class="w-full max-w-[75px] sm:max-w-[100px]" alt="Low Income Investement Fund" >
-      <h1 class="text-lg sm:text-2xl font-bold">{{ $page->title }}</h1>
+      <h1 class="text-lg sm:text-2xl font-bold">2024 Annual Impact Report</h1>
     </div>
 
     <div class="grid gap-8 lg:gap-16 lg:grid-cols-12 py-16">
@@ -16,10 +16,10 @@
             <img class="lazy w-full h-full object-cover grayscale" data-src="{{ url('/assets/images/cover1.webp') }}" alt="A young girl sitting at a table playing with Play-Doh in a colorful preschool classroom.">
           </figure>
           <figure class="max-w-[60%] overlay overlay--beige">
-            <img class="lazy w-full h-full object-cover grayscale" data-src="{{ url('/assets/images/cover2.webp') }}" alt="A man standing at a podium delivering a presentation to an audience.">
+            <img class="lazy w-full h-full object-cover grayscale" data-src="{{ url('/assets/images/cover2-v.webp') }}" alt="A man standing at a podium delivering a presentation to an audience.">
           </figure>
           <figure class="col-start-2 overlay overlay--blue">
-            <img class="lazy w-full h-full object-cover grayscale" data-src="{{ url('/assets/images/cover3.webp') }}" alt="Aerial view of a construction site with a crane, showcasing the building of new affordable housing units.">
+            <img class="lazy w-full h-full object-cover grayscale" data-src="{{ url('/assets/images/cover3-c.webp') }}" alt="Aerial view of a construction site with a crane, showcasing the building of new affordable housing units.">
           </figure>
         </div>
       </div>

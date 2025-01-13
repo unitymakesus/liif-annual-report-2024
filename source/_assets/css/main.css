@@ -14,11 +14,15 @@ body {
 }
 
 h2 {
-  @apply font-oswald block text-4xl leading-normal md:text-6xl md:leading-normal mb-4 md:mb-8;
+  @apply font-oswald block text-4xl leading-normal md:text-6xl md:leading-normal mb-4 md:mb-8 text-pretty;
+}
+
+h3 {
+  @apply text-pretty;
 }
 
 p {
-  @apply mb-4;
+  @apply mb-4 text-pretty;
 }
 
 a {
@@ -122,6 +126,14 @@ figcaption {
   @apply font-bold border-b border-solid border-[#093236];
 }
 
+.table-headers {
+  @apply bg-[#F0F3F3];
+}
+
+.table-headers th[scope="row"], .total-row th[scope="row"] {
+  @apply font-bold;
+}
+
 .consolidated-financials ul {
   border-bottom: 1px solid #093236;
   margin-bottom: 1rem;
@@ -181,7 +193,7 @@ table {
 }
 
 th[scope="row"] {
-  @apply text-left;
+  @apply text-left font-normal;
 }
 
 sup {
@@ -248,19 +260,19 @@ button[role="tab"]:focus-visible {
 }
 
 .overlay--green::after {
-  @apply absolute top-0 w-full h-full bg-[#2C8A95] opacity-40;
+  @apply absolute top-0 w-full h-full bg-[#2C8A95] opacity-30;
 
   content: '';
 }
 
 .overlay--blue::after {
-  @apply absolute top-0 w-full h-full bg-[#485879] opacity-40;
+  @apply absolute top-0 w-full h-full bg-[#485879] opacity-30;
 
   content: '';
 }
 
 .overlay--beige::after {
-  @apply absolute top-0 w-full h-full bg-[#E5E5DC] opacity-40;
+  @apply absolute top-0 w-full h-full bg-[#E5E5DC] opacity-30;
 
   content: '';
 }

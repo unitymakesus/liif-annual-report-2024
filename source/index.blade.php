@@ -8,9 +8,9 @@
         <div class="md:col-span-6">
           <div class="grid grid-cols-2 gap-4 md:gap-6 lg:gap-8">
             <figure class="overlay overlay--blue">
-              <img class="lazy w-full h-full object-cover grayscale" data-src="{{ url('/assets/images/mission1.webp') }}" alt="Neatly arranged toys on a shelf in a preschool classroom.">
+              <img class="lazy w-full h-full object-cover grayscale" data-src="{{ url('/assets/images/mission1-c.webp') }}" alt="Neatly arranged toys on a shelf in a preschool classroom.">
             </figure>
-            <figure class="col-start-1 row-start-2 max-w-[60%] ml-auto overlay overlay--blue">
+            <figure class="col-start-1 row-start-2 max-w-[80%] ml-auto overlay overlay--blue">
               <img class="lazy w-full h-full object-cover grayscale" data-src="{{ url('/assets/images/mission2.webp') }}" alt="A brick apartment building with an inviting front entrance.">
             </figure>
             <figure class="col-start-2 row-start-1 row-span-2 overlay overlay--blue">
@@ -36,9 +36,11 @@
           <p><strong>Since our founding, LIIF has invested more than $3.5 billion to serve 2.5 million people across the nation.</strong> We are steadfastly committed to increasing and preserving the supply of affordable homes, child care spaces and community facilities such as charter schools and federally qualified health centers (FQHCs). Our early care and education (ECE) strategies have expanded significantly, now comprising facilities fund management, capacity building and advisory services.</p>
           <p>With a commitment to deepen our impact in lending, we developed the Impact-Risk-Profitability (IRP) Framework, which triangulates impact, risk and profitability to strategically allocate capital. Via a set of tools, the IRP operationalizes racial equity into how LIIF approaches lending. Our goal is prioritizing financing that builds power and agency for borrowers — and their communities.</p>
         </div>
-        <figure class="flex flex-col">
-          <img class="lazy rounded-lg grayscale" data-src="{{ url('/assets/images/our-history.webp') }}" alt="Partially visible illustrated timeline photo of LIIF.">
-        </figure>
+        <div class="flex flex-col">
+          <figure class="overlay overlay--green">
+            <img class="lazy rounded-lg grayscale" data-src="{{ url('/assets/images/our-history.webp') }}" alt="Partially visible illustrated timeline photo of LIIF.">
+          </figure>
+        </div>
       </div>
     </div>
   </section>
@@ -68,9 +70,7 @@
 
   <section class="bg-[#E5E5DD] py-16">
     <div class="container">
-      <h2 class="font-bold clamp-[text,4xl,8xl] mb-4 md:mb-12 leading-tight text-[#1A3626]">Advancing Racial Equity <br/>
-        <span class="text-[#498893]">(2020–2030)</span>
-      </h2>
+      <h2 class="font-bold clamp-[text,4xl,8xl] mb-4 md:mb-12 leading-tight text-[#1A3626]">Advancing Racial Equity</h2>
       <div class="bg-[#0D373C] text-[#92D0CE] p-8 lg:p-16 xl:py-16 xl:px-24 rounded-xl sm:-mx-4">
         <div class="tabs tabs--main">
           <div role="tablist" class="flex flex-row flex-wrap gap-2 mb-2 border-b border-solid border-current" aria-orientation="horizontal" aria-label="">
@@ -90,7 +90,7 @@
               <div id="bar" class="h-full bg-gradient-to-r from-[#0D373C] to-[#166670] relative w-0 transition-width duration-1000 ease-out"></div>
             </div>
             <div class="font-oswald font-bold text-right clamp-[text,7xl,9xl] leading-none mt-8" aria-hidden="true">
-              <sup>$</sup>5B
+              <sup>$</sup>5b
             </div>
             <div class="sr-only">5 billion dollars</div>
           </div>
@@ -98,7 +98,7 @@
             <h2 class="font-bold">Community</h2>
             <div class="text-right mt-8">
               <div class="font-oswald font-bold clamp-[text,7xl,9xl] leading-none" aria-hidden="true">
-                <sup>$</sup>338M
+                <sup>$</sup>338m
               </div>
               <div class="sr-only">338 million dollars</div>
               <div class="text-lg md:text-xl">total invested</div>
@@ -307,7 +307,7 @@
 
   <section class="bg-white text-[#093236] py-16">
     <div class="container !max-w-6xl">
-      <h2 class="leading-tight">Consolidated Financials</h2>
+      <h2 class="leading-tight">Consolidated Financial Statements</h2>
       <div class="tabs tabs--dark-green">
         <div role="tablist" class="flex flex-row flex-wrap gap-2 mb-2 border-b border-solid border-current" aria-orientation="horizontal" aria-label="LIIF Consolidated Financials">
           <button role="tab" class="text-lg font-semibold py-1 px-4" id="tab-financial-position" aria-selected="true" aria-controls="tabpanel-financial-position">Financial Position</button>

@@ -4,8 +4,8 @@
       <div class="md:col-span-3 md:flex md:justify-end">
         <img src="{{ url('/assets/images/logo-liif.svg') }}" class="w-full max-w-[100px]" alt="Low Income Investement Fund">
       </div>
-      <div class="md:col-span-9">
-        <h2 class="font-oswald text-3xl">Join us in the scaling up of our work building communities of opportunity, equity and well-being across the nation!</h2>
+      <div class="md:col-span-8">
+        <h2 class="font-oswald text-3xl">Join us in our work building communities of opportunity, equity and well-being across the nation!</h2>
       </div>
       <div class="md:col-span-3">
         <span class="font-oswald clamp-[text,5xl,7xl] block leading-none font-bold md:text-right">40 Years Strong</span>

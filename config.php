@@ -1,8 +1,8 @@
 <?php
 
 return [
-    'title'       => 'LIIF Annual Report 2024',
-    'description' => 'Website description goes here.',
+    'title'       => 'LIIF 2024 Annual Impact Report',
+    'description' => 'Investing in the future. 40 years strong.',
     'staging'     => false,
     'baseUrl'     => 'https://liif-annual-report-2024.test',
     'social'      => [
