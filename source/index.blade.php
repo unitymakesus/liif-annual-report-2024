@@ -1,6 +1,9 @@
 @extends('_layouts.main')
 
 @section('body')
+  <noscript>
+    <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KCSTHJZW" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+  </noscript>
   @include('_partials.header')
   <section class="bg-[#E5E5DD] pb-24">
     <div class="container">
