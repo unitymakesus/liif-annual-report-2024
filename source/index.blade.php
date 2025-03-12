@@ -35,9 +35,9 @@
 
       <div class="grid gap-4 lg:gap-8 lg:grid-cols-2">
         <div class="flex flex-col">
-          <p>The Low Income Investment Fund (LIIF) is a leading community development financial institution (CDFI) with a storied history dating back four decades. Today, we remain in the vanguard of innovative capital solutions. LIIF is dedicated to supporting projects that have high social value but lack access to capital at traditional lenders. From our San Francisco headquarters — and with regional offices in New York City, Atlanta, Los Angeles and Washington, D.C. — LIIF invests to help create communities of opportunity, equity and well-being.</p>
+          <p>The Low Income Investment Fund (LIIF) is a leading community development financial institution (CDFI) with a storied history dating back four decades. Today, we remain in the vanguard of innovative capital solutions. LIIF is dedicated to supporting projects needing catalytic capital. From our San Francisco headquarters &mdash; and with regional offices in New York City, Atlanta, Los Angeles and Washington, D.C. &mdash; LIIF invests to strengthen communities across the nation.</p>
           <p><strong>Since our founding, LIIF has invested more than $3.5 billion to serve 2.5 million people across the nation.</strong> We are steadfastly committed to increasing and preserving the supply of affordable homes, child care spaces and community facilities such as charter schools and federally qualified health centers (FQHCs). Our early care and education (ECE) strategies have expanded significantly, now comprising facilities fund management, capacity building and advisory services.</p>
-          <p>With a commitment to deepen our impact in lending, we developed the Impact-Risk-Profitability (IRP) Framework, which triangulates impact, risk and profitability to strategically allocate capital. Via a set of tools, the IRP operationalizes racial equity into how LIIF approaches lending. Our goal is prioritizing financing that builds power and agency for borrowers — and their communities.</p>
+          <p>With a commitment to deepen our impact in lending, we developed the Impact-Risk-Profitability (IRP) Framework, which triangulates impact, risk and profitability to strategically allocate capital. Our goal is prioritizing financing that creates communities of opportunity for all.</p>
         </div>
         <div class="flex flex-col">
           <figure class="overlay overlay--green">
@@ -73,7 +73,7 @@
 
   <section class="bg-[#E5E5DD] py-16">
     <div class="container">
-      <h2 class="font-bold clamp-[text,4xl,8xl] mb-4 md:mb-12 leading-tight text-[#1A3626]">Advancing Racial Equity</h2>
+      <h2 class="font-bold clamp-[text,4xl,8xl] mb-4 md:mb-12 leading-tight text-[#1A3626]">Strengthening Communities</h2>
       <div class="bg-[#0D373C] text-[#92D0CE] p-8 lg:p-16 xl:py-16 xl:px-24 rounded-xl sm:-mx-4">
         <div class="tabs tabs--main">
           <div role="tablist" class="flex flex-row flex-wrap gap-2 mb-2 border-b border-solid border-current" aria-orientation="horizontal" aria-label="">
@@ -85,7 +85,7 @@
           </div>
           <div tabindex="0" role="tabpanel" id="tabpanel-2030-goal" aria-labelledby="tab-2030-goal">
             <h2 class="font-bold mb-4">2030 Goal</h2>
-            <p class="text-lg md:text-xl max-w-[450px]">LIIF is driving $5 billion in investments over a decade to advance racial equity (2020-2030).</p>
+            <p class="text-lg md:text-xl max-w-[450px]">LIIF is driving $5 billion in investments to strengthen communities (2020-2030).</p>
             <div class="h-16 relative overflow-hidden flex mx-0 border border-[#92D0CE] items-center">
               <span class="text-span absolute left-4 text-base sm:text-xl font-bold leading-none z-10"><span id="target">61</span>% Funded</span>
               <span class="text-span absolute left-[45%] text-base sm:text-xl font-bold leading-none opacity-0 translate-x-(-4) z-10">reached by June 30, 2023</span>
@@ -150,8 +150,8 @@
       <div class="grid gap-4 lg:gap-8 lg:grid-cols-2">
         <div>
           <h2 class="font-bold text-3xl leading-tight md:text-5xl md:leading-tight mb-8">Investing in the Future: 40 Years Strong</h2>
-          <p>In 1984, the Low Income Investment Fund (LIIF) was created to address the growing challenges faced by underserved communities. Forty years later, LIIF stands as a national leader with a proud legacy of creating opportunities for millions of people and strengthening communities. Over the decades, LIIF has deployed $3.5+ billion in capital to support small businesses, create jobs and improve local economies while impacting the lives of 2.5 million people in historically excluded communities. Lasting, transformative and systemic change has occurred.</p>
-          <p>This milestone is more than just a celebration of years past: It’s a testament to the power of strategic investments, resilience and our unwavering commitment to social justice. We remain steadfastly committed to this critical work.</p>
+          <p>In 1984, the Low Income Investment Fund (LIIF) was created to address the growing challenges faced by underserved communities. Forty years later, LIIF stands as a national leader with a proud legacy of creating opportunities for millions of people and strengthening communities. Over the decades, LIIF has deployed $3.5+ billion in capital to support small businesses, create jobs and improve local economies while impacting the lives of 2.5 million people across the nation. These are lasting, transformative changes that are strengthening communities.</p>
+          <p>This milestone is more than just a celebration of years past: It’s a testament to the power of strategic investments and strong partnerships.</p>
           <x-call-to-action href="https://www.liifund.org/perspective/investing-in-the-future-40-years-strong/">Read the full story.</x-call-to-action>
         </div>
         <figure>
@@ -178,9 +178,9 @@
           </div>
         </div>
         <div class="flex flex-col justify-center lg:col-span-5 text-[#39382F]">
-          <h2 class="text-3xl">Shaping the Future of Housing: LIIF’s Investments in Affordable Homes and Developers of Color</h2>
-          <p>Our vision for affordable housing goes beyond simply deploying capital to developers for building or renovating properties; it’s about creating thriving, resilient communities where individuals and families — particularly those in Black, Latino and other communities of color — can access social and economic equity. These communities have long been excluded from opportunities to build generational wealth and secure stable housing, but through long-term, transformative investments, we are helping to change that narrative.</p>
-          <x-call-to-action href="https://www.liifund.org/perspective/shaping-the-future-of-housing-liifs-investments-in-affordable-homes-and-developers-of-color/">Read the full story.</x-call-to-action>
+          <h2 class="text-3xl">Shaping the Future of Housing: LIIF’s Investments in Affordable Homes, Developers and Communities</h2>
+          <p>Our vision for affordable housing goes beyond simply deploying capital to developers for building or renovating properties; it’s about strengthening underserved communities to ensure individuals and families thrive. LIIF’s commitment to community is expanding access to more Americans via long-term, transformative investments.</p>
+          <x-call-to-action href="https://www.liifund.org/perspective/shaping-the-future-of-housing-liifs-investments-in-affordable-homes-developers-and-communities/">Read the full story.</x-call-to-action>
         </div>
       </div>
       <div class="grid gap-16 lg:grid-cols-12 mb-12 md:mb-24">
@@ -198,16 +198,14 @@
           </div>
         </div>
         <div class="flex flex-col justify-center lg:col-span-5 text-[#0C393E]">
-          <h2 class="text-3xl">LIIF’s Commitment to Equity and Sustainability of the Early Care and Education Ecosystem</h2>
+          <h2 class="text-3xl">LIIF Driving Sustainability of the Early Care and Education Ecosystem</h2>
           <p>At LIIF, we are committed to centering community voices as the foundation for driving sustainable change in the early care and education (ECE) sector. Providers, families and children each offer valuable insights into the challenges they face, and their experiences are integral to shaping our work. By listening to and prioritizing their voices, we gain a deeper understanding of the unique needs within communities, allowing us to more effectively address barriers and ensure our resources create long-term, sustainable solutions.</p>
-          <x-call-to-action href="https://www.liifund.org/perspective/liifs-commitment-to-equity-and-sustainability-of-the-early-care-and-education-ecosystem/">Read the full story.</x-call-to-action>
+          <x-call-to-action href="https://www.liifund.org/perspective/liif-driving-sustainability-of-the-early-care-and-education-ecosystem/">Read the full story.</x-call-to-action>
         </div>
       </div>
       <div class="grid gap-16 lg:grid-cols-12 mb-4 text-[#16223B]">
         <div class="flex flex-col justify-center lg:col-span-7">
-          <h2 class="text-3xl">Impact Risk-Profitability</h2>
-          <p>In 2022, LIIF made a commitment to reimagine the traditional Five Cs of credit (capacity, capital, conditions, character and collateral). That led to the creation of our Impact-Risk-Profitability (IRP) Framework — LIIF's new model for racial equity in lending. We saw this change as necessary if, as a leading national CDFI, we were to most impactfully deploy capital into historically excluded communities. It was paramount to consider the endemic systemic inequities that bar developers of color from accessing capital from traditional lenders.</p>
-          <p>Our Black Developer Capital Initiative (BDCI) exemplifies how LIIF drives investments into communities of color. Despite strong track records, many developers of color have been systemically denied access to capital that would enable them to build more homes, grow their small businesses and create a generational asset. The following are three stories showcasing how racial equity in lending is a game changer.</p>
+          <h2 class="text-3xl">Mobilizing Capital to Strengthen Communities</h2>
         </div>
       </div>
 
@@ -223,8 +221,8 @@
                 </div>
                 <div class="lg:col-span-7">
                   <blockquote class="relative font-bold text-lg md:text-xl xl:text-2xl leading-normal md:leading-normal xl:leading-normal">
-                    <p>BDCI by LIIF has provided the financial foundation to secure a seat at the table with current and future development partners. The line of credit offers the flexibility to leverage additional funding sources and more effectively scale our developments. With this funding, we can be involved in larger, high-impact projects that would have previously been out of reach.</p>
-                    <cite>— Alexis Laing, President and CEO, Laing Companies</cite>
+                    <p>LIIF has provided the financial foundation to secure a seat at the table with current and future development partners. The line of credit offers the flexibility to leverage additional funding sources and more effectively scale our developments. With this funding, we can be involved in larger, high-impact projects that would have previously been out of reach.</p>
+                    <cite>&mdash; Alexis Laing, President and CEO, Laing Companies</cite>
                   </blockquote>
                 </div>
               </div>
@@ -238,8 +236,8 @@
                 </div>
                 <div class="lg:col-span-7">
                   <blockquote class="relative font-bold text-lg md:text-xl xl:text-2xl leading-normal md:leading-normal xl:leading-normal">
-                    <p>The BDCI line of credit represents more than just funding — it's a vital tool that allows BOLD to execute our vision with precision and confidence. LIIF's support has been crucial in helping us maintain momentum on our mission to urgently expand the supply of affordable and workforce housing across California.</p>
-                    <cite>— Mike Miller, Founder and President, BOLD Communities</cite>
+                    <p>This line of credit represents more than just funding &mdash; it's a vital tool that allows BOLD to execute our vision with precision and confidence. LIIF's support has been crucial in helping us maintain momentum on our mission to urgently expand the supply of affordable and workforce housing across California.</p>
+                    <cite>&mdash; Mike Miller, Founder and President, BOLD Communities</cite>
                   </blockquote>
                 </div>
               </div>
@@ -253,8 +251,8 @@
                 </div>
                 <div class="lg:col-span-7">
                   <blockquote class="relative font-bold text-lg md:text-xl xl:text-2xl leading-normal md:leading-normal xl:leading-normal text-white">
-                    <p>I am grateful for programs such as BDCI, which helped me fill a funding gap for an affordable housing project at a critical phase of the development process. Unfortunately, barriers are a reality check for Black developers. Having supporters, such as LIIF, assists in bridging financial disparities for Black-owned real estate investment and development firms. My uncertainty turned into confidence. I thank you, LIIF, for believing in me and my project.</p>
-                    <cite>— Detra Harris, Principal, Strive Real Estate LLC</cite>
+                    <p>I am grateful for LIIF’s programs, which helped me fill a funding gap for an affordable housing project at a critical phase of the development process. Having supporters, such as LIIF, assists in bridging financial disparities for minority-owned real estate investment and development firms. My uncertainty turned into confidence. I thank you, LIIF, for believing in me and my project.</p>
+                    <cite>&mdash; Detra Harris, Principal, Strive Real Estate LLC</cite>
                   </blockquote>
                 </div>
               </div>
@@ -269,7 +267,7 @@
     <div class="container !max-w-6xl">
       <h2 class="leading-tight">About Our Partnerships</h2>
       <div class="max-w-3xl">
-        <p>We forge strong partnerships with funders, foundations, government agencies and policymakers. LIIF drives racial equity in lending that supports the production and preservation of affordable housing; positively impacts children's spaces in the early care and education sector; and creates community facilities in historically under-resourced communities. Some examples follow showcasing how these partnerships lead to innovative programs, national funds and initiatives.</p>
+        <p>We forge strong partnerships with funders, foundations, government agencies and policymakers. LIIF’s lending solutions and partnerships support the production and preservation of affordable housing; positively impact children's spaces in the early care and education sector; and create community facilities in historically underserved communities. Some examples follow showcasing how these partnerships lead to innovative programs, national funds and initiatives.</p>
       </div>
 
       <div class="md:columns-2 gap-8 mt-8">

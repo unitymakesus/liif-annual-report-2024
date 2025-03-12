@@ -13,7 +13,7 @@
       <div class="lg:col-span-6">
         <div class="grid grid-cols-2 gap-4 sm:gap-8">
           <figure class="row-span-2 overlay overlay--green">
-            <img class="lazy w-full h-full object-cover grayscale" data-src="{{ url('/assets/images/cover1.webp') }}" alt="A young girl sitting at a table playing with Play-Doh in a colorful preschool classroom.">
+            <img class="lazy w-full h-full object-cover grayscale" data-src="{{ url('/assets/images/cover1-r.webp') }}" alt="A young girl sitting at a table playing with Play-Doh in a colorful preschool classroom.">
           </figure>
           <figure class="max-w-[60%] overlay overlay--beige">
             <img class="lazy w-full h-full object-cover grayscale" data-src="{{ url('/assets/images/cover2-v.webp') }}" alt="A man standing at a podium delivering a presentation to an audience.">

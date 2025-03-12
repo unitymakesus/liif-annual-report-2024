@@ -5,7 +5,7 @@
         <img src="{{ url('/assets/images/logo-liif.svg') }}" class="w-full max-w-[100px]" alt="Low Income Investement Fund">
       </div>
       <div class="md:col-span-8">
-        <h2 class="font-oswald text-3xl">Join us in our work building communities of opportunity, equity and well-being across the nation!</h2>
+        <h2 class="font-oswald text-3xl">Join us in our work strengthening communities across the nation!</h2>
       </div>
       <div class="md:col-span-3">
         <span class="font-oswald clamp-[text,5xl,7xl] block leading-none font-bold md:text-right">40 Years Strong</span>
@@ -56,7 +56,7 @@
   </div>
   <div class="bg-[#1F1E1A] text-center py-4">
     <div class="container">
-      <span>Copyright © 2024 Low Income Investment Fund, 2024 Annual Impact Report</span>
+      <span>Copyright © 2025 Low Income Investment Fund, 2024 Annual Impact Report</span>
     </div>
   </div>
 </footer>
