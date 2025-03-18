@@ -35,7 +35,7 @@
 
       <div class="grid gap-4 lg:gap-8 lg:grid-cols-2">
         <div class="flex flex-col">
-          <p>The Low Income Investment Fund (LIIF) is a leading community development financial institution (CDFI) with a storied history dating back four decades. Today, we remain in the vanguard of innovative capital solutions. LIIF is dedicated to supporting projects needing catalytic capital. From our San Francisco headquarters &mdash; and with regional offices in New York City, Atlanta, Los Angeles and Washington, D.C. &mdash; LIIF invests to strengthen communities across the nation.</p>
+          <p>The Low Income Investment Fund (LIIF) is a leading community development financial institution (CDFI) with a storied history dating back four decades. Today, we remain in the vanguard of innovative capital solutions. LIIF is dedicated to supporting projects needing catalytic capital. From our San Francisco headquarters&nbsp;&mdash; and with regional offices in New York City, Atlanta, Los Angeles and Washington, D.C.&nbsp;&mdash; LIIF invests to strengthen communities across the nation.</p>
           <p><strong>Since our founding, LIIF has invested more than $3.5 billion to serve 2.5 million people across the nation.</strong> We are steadfastly committed to increasing and preserving the supply of affordable homes, child care spaces and community facilities such as charter schools and federally qualified health centers (FQHCs). Our early care and education (ECE) strategies have expanded significantly, now comprising facilities fund management, capacity building and advisory services.</p>
           <p>With a commitment to deepen our impact in lending, we developed the Impact-Risk-Profitability (IRP) Framework, which triangulates impact, risk and profitability to strategically allocate capital. Our goal is prioritizing financing that creates communities of opportunity for all.</p>
         </div>
@@ -149,7 +149,7 @@
     <div class="container">
       <div class="grid gap-4 lg:gap-8 lg:grid-cols-2">
         <div>
-          <h2 class="font-bold text-3xl leading-tight md:text-5xl md:leading-tight mb-8">Investing in the Future: 40 Years Strong</h2>
+          <h2 class="font-bold text-3xl leading-tight md:text-5xl md:leading-tight mb-8">Investing in the Future:<br />40 Years Strong</h2>
           <p>In 1984, the Low Income Investment Fund (LIIF) was created to address the growing challenges faced by underserved communities. Forty years later, LIIF stands as a national leader with a proud legacy of creating opportunities for millions of people and strengthening communities. Over the decades, LIIF has deployed $3.5+ billion in capital to support small businesses, create jobs and improve local economies while impacting the lives of 2.5 million people across the nation. These are lasting, transformative changes that are strengthening communities.</p>
           <p>This milestone is more than just a celebration of years past: It’s a testament to the power of strategic investments and strong partnerships.</p>
           <x-call-to-action href="https://www.liifund.org/perspective/investing-in-the-future-40-years-strong/">Read the full story.</x-call-to-action>
@@ -236,7 +236,7 @@
                 </div>
                 <div class="lg:col-span-7">
                   <blockquote class="relative font-bold text-lg md:text-xl xl:text-2xl leading-normal md:leading-normal xl:leading-normal">
-                    <p>This line of credit represents more than just funding &mdash; it's a vital tool that allows BOLD to execute our vision with precision and confidence. LIIF's support has been crucial in helping us maintain momentum on our mission to urgently expand the supply of affordable and workforce housing across California.</p>
+                    <p>This line of credit represents more than just funding&nbsp;&mdash; it's a vital tool that allows BOLD to execute our vision with precision and confidence. LIIF's support has been crucial in helping us maintain momentum on our mission to urgently expand the supply of affordable and workforce housing across California.</p>
                     <cite>&mdash; Mike Miller, Founder and President, BOLD Communities</cite>
                   </blockquote>
                 </div>
@@ -277,7 +277,7 @@
         </div>
         <div class="md:break-inside-avoid mb-8">
           <h3 class="block font-bold text-xl mb-2">Keeping Homes Affordable (KHA)</h3>
-          <p>Keeping Homes Affordable (KHA) is a national affordable housing preservation financing facility managed by LIIF. The fund’s goal is to provide acquisition financing for nonprofit and mission driven for-profit developers to acquire and preserve affordable multifamily projects. This partnership with Calvert Impact Capital and Arnold Ventures led to full deployment of the $50 million facility by the end of FY24, preserving over 730 units of affordable housing in communities across the United States.</p>
+          <p>Keeping Homes Affordable (KHA) is a national affordable housing preservation financing facility managed by LIIF. The fund’s goal is to provide acquisition financing for nonprofit and mission-driven for-profit developers to acquire and preserve affordable multifamily projects. This partnership with Calvert Impact Capital and Arnold Ventures led to full deployment of the $50 million facility by the end of FY24, preserving over 730 units of affordable housing in communities across the United States.</p>
         </div>
         <div class="md:break-inside-avoid mb-8">
           <h3 class="block font-bold text-xl mb-2">Purpose Built Communities</h3>

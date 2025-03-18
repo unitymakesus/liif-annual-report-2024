@@ -74,10 +74,6 @@ return [
     ],
     'directors' => [
         [
-            'name'  => 'Margaret Anadu',
-            'title' => 'Senior Partner, The Vistria Group',
-        ],
-        [
             'name'  => 'Tawanna A. Black',
             'title' => 'Founder and CEO, Center for Economic Inclusion',
         ],
@@ -144,10 +140,6 @@ return [
             'title' => 'Executive Vice President and Chief People Officer',
         ],
         [
-            'name'  => 'Maygen Moore',
-            'title' => 'Interim Chief Lending Officer',
-        ],
-        [
             'name'  => 'Rachel Bluestein',
             'title' => 'Senior Vice President and Chief Program Officer',
         ],
@@ -160,8 +152,12 @@ return [
             'title' => 'Senior Vice President and Chief Credit Officer',
         ],
         [
-            'name'  => 'Amir Ali',
-            'title' => 'Vice President for National Community Facilities Lending and New Markets Tax Credits',
+            'name'  => 'Maygen Moore',
+            'title' => 'Senior Vice President, Chief Lending Officer',
+        ],
+        [
+            'name'  => 'Jessica Standiford',
+            'title' => 'Senior Vice President, Chief Development Officer',
         ],
         [
             'name'  => 'Pam Berkowitz',
@@ -200,12 +196,8 @@ return [
             'title' => 'Vice President of Operations',
         ],
         [
-            'name'  => 'Jessica Standiford',
-            'title' => 'Vice President, Development and Impact Investing',
-        ],
-        [
             'name'  => 'Paul Wetterholm',
-            'title' => 'Interim Controller',
+            'title' => 'Vice President, Finance and Controller',
         ],
     ],
 ];
